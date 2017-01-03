@@ -1,19 +1,13 @@
 #ifndef _SERVER_H_
 #define _SERVER_H_
 
-#if defined(_DEBUG) || !defined(NDEBUG)
-#define ShowMessage(msg) Server::showMessage(msg)
-#else
-#define ShowMessage(msg) 
-#endif
-
-
 #include "ConstsAndGlobals.h"
 #include "ThreadsDefinitions.h"
 #include "TCPDefinitions.h"
 #include "client.h"
 #include "group.h"
 #include "result.h"
+#include "Counter.h"
 #include <string>
 #include <map>
 
@@ -32,7 +26,6 @@ public:
 
 	int threadStart();
 	int threadFinish();
-	static void showMessage(string message);
 
 	//The method where the server listens to new connections.
 	Result start();
@@ -69,11 +62,10 @@ private:
 	Socket m_listenSocket;
 	Mutex m_clientsMutex;
 	Mutex m_groupsMutex;
-	Mutex m_threadsCountMutex;
-	static Mutex m_coutMutex;
+
 	Clients m_clients;
 	Groups m_groups;
-	unsigned int m_threadsCount;
+	Counter *m_threadsCount;
 };
 
 //TODO

@@ -54,7 +54,19 @@ Result sendStatus(Socket clientSocket, StatusResults::StatusResultType statusRes
 	return result;
 }
 
+Result sendClientsInGroup(Socket clientSocket, const string clientsNames) {
+	Result result;
+
+	return result;
+}
+
 Result sendMsg(Socket clientSocket, string &msg){
+	Result result;
+
+	return result;
+}
+
+Result sendClientJoinedGroup(Socket clientSocket, string groupName, string newClientName) {
 	Result result;
 
 	return result;

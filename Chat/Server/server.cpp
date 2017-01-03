@@ -1,5 +1,6 @@
 #include "server.h"
 #include "result.h"
+#include "MessagePrinter.h"
 #include <iostream>
 #include <string>
 #include <utility>
@@ -17,85 +18,15 @@ Server::~Server()
 }
 
 int Server::threadStart(){
-	Result waitResult;
-	Result signalResult;
-	waitResult = mutexWait(m_threadsCountMutex);
-	m_threadsCount++;
-	signalResult = mutexSignal(m_threadsCountMutex);
+	m_threadsCount->increment();
 
-#if defined(_DEBUG) || !defined(NDEBUG)
-	string msg = "";
-	if (waitResult.type != R_OK){
-		msg = waitResult.message;
-
-		if (signalResult.type != R_OK){
-			msg.append("\n|____");
-			msg.append(signalResult.message);
-		}
-
-		showMessage(msg);
-	}
-	else if (signalResult.type != R_OK){
-		msg = signalResult.message;
-
-		showMessage(msg);
-	}
-#endif
-
-	return m_threadsCount;
+	return m_threadsCount->getValue();
 }
 
 int Server::threadFinish() {
-	Result waitResult;
-	Result signalResult;
-	waitResult = mutexWait(m_threadsCountMutex);
-	m_threadsCount--;
-	signalResult = mutexSignal(m_threadsCountMutex);
+	m_threadsCount->decrement();
 
-#if defined(_DEBUG) || !defined(NDEBUG)
-	string msg = "";
-	if (waitResult.type != R_OK){
-		msg = waitResult.message;
-
-		if (signalResult.type != R_OK){
-			msg.append("\n|____");
-			msg.append(signalResult.message);
-		}
-
-		showMessage(msg);
-	}
-	else if (signalResult.type != R_OK){
-		msg = signalResult.message;
-
-		showMessage(msg);
-	}
-#endif
-	return m_threadsCount;
-}
-
-void Server::showMessage(string message){
-	Result waitResult;
-	Result signalResult;
-	waitResult = mutexWait(m_coutMutex);
-	cout << message << "\n";
-	signalResult = mutexSignal(m_coutMutex);
-
-	string msg = "";
-	if (waitResult.type != R_OK){
-		msg = waitResult.message;
-
-		if (signalResult.type != R_OK){
-			msg.append("\n|____");
-			msg.append(signalResult.message);
-		}
-
-		cerr << msg << "\n";
-	}
-	else if (signalResult.type != R_OK){
-		msg = signalResult.message;
-
-		cerr << msg << "\n";
-	}
+	return m_threadsCount->getValue();
 }
 
 Result Server::start(){
@@ -248,11 +179,13 @@ Result Server::joinGroup(Client *client, string groupName){
 					Client* c = NULL;
 					for (; it != group->getMembers().end(); it++){
 						c = it->second;
-						extraData.append(c->getName());
-						extraData.append("|");
-						Result sendResult = sendClientJoinedGroup(c->getSocket, groupName, client->getName());
-						result.message.append("\n        |__");
-						result.message.append(sendResult.message);
+						if (c->getName() != client->getName()) {
+							extraData.append(c->getName());
+							extraData.append("|");
+							Result sendResult = sendClientJoinedGroup(c->getSocket(), groupName, client->getName());
+							result.message.append("\n        |__");
+							result.message.append(sendResult.message);
+						}
 					}
 
 					Result sendResult = sendClientsInGroup(client->getSocket(), extraData);

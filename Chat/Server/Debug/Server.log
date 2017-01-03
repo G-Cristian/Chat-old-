@@ -1,264 +1,215 @@
-﻿Compilación iniciada a las 20/01/2016 11:57:19 p.m..
-     1>Proyecto "D:\GitHub\Chat\Chat\Server\Server.vcxproj" en el nodo 2 (Build destinos).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt server.cpp
-         server.cpp
-         Nota: inclusión del archivo: d:\github\chat\chat\server\server.h
-         Nota: inclusión del archivo:  d:\github\chat\chat\server\ConstsAndGlobals.h
-         Nota: inclusión del archivo:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\istream
-         Nota: inclusión del archivo:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ostream
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ios
-         Nota: inclusión del archivo:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum
-         Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits
-         Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h
-         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h
-         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h
-         Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ConcurrencySal.h
-         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vadefs.h
-         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h
-         Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h
-         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath
-         Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h
-         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h
-         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common
-         Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio
-         Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
-         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl
-         Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib
-         Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h
-         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\streambuf
-         Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xiosbase
-         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale
-         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstring
-         Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h
-         Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept
-         Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception
-         Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstddef
-         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstddef
-         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h
-         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\initializer_list
-         Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\eh.h
-         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h
-         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring
-         Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0
-         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits
-         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ymath.h
-         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cfloat
-         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h
-         Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtwrn.h
-         Nota: inclusión del archivo:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cwchar
-         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h
-         Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl
-         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new
-         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility
-         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility
-         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iosfwd
-         Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdbg.h
-         Nota: inclusión del archivo:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\type_traits
-         Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xrefwrap
-         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic0.h
-         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h
-         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h
-         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h
-         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h
-         Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h
-         Nota: inclusión del archivo:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h
-         Nota: inclusión del archivo:                    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h
-         Nota: inclusión del archivo:                     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h
-         Nota: inclusión del archivo:                      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h
-         Nota: inclusión del archivo:                       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h
-         Nota: inclusión del archivo:                        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h
-         Nota: inclusión del archivo:                         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h
-         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h
-         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\typeinfo
-         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo
-         Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo.h
-         Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ctype.h
-         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\locale.h
-         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xdebug
-         Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory
-         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfacet
-         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\system_error
-         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cerrno
-         Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h
-         Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\share.h
-         Nota: inclusión del archivo:  d:\github\chat\chat\server\ThreadsDefinitions.h
-         Nota: inclusión del archivo:   d:\github\chat\chat\server\result.h
-         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\excpt.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdarg.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h
-         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings.h
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h
-         Nota: inclusión del archivo:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_undef.h
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\driverspecs.h
-         Nota: inclusión del archivo:        c:\program files (x86)\windows kits\8.1\include\shared\sdv_driverspecs.h
-         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\kernelspecs.h
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
-         Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
-         Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
-         Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
-         Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
-         Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
-         Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
-         Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
-         Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
-         Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
-         Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\shared\pshpack8.h
-         Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
-         Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apiset.h
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ktmtypes.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\processenv.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\fileapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\debugapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\utilapiset.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\handleapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\errhandlingapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\fibersapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\namedpipeapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\profileapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\heapapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\ioapiset.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\synchapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\interlockedapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\memoryapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoollegacyapiset.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoolapiset.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\bemapiset.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\jobapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\wow64apiset.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\libloaderapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\securitybaseapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\namespaceapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\systemtopologyapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\processtopologyapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\securityappcontainer.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\realtimeapiset.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\timezoneapi.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\tvout.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\datetimeapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\stringapiset.h
-         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincon.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\consoleapi.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\winver.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\verrsrc.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\reason.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wnnc.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\imm.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\ime_cmodes.h
-         Nota: inclusión del archivo:  d:\github\chat\chat\server\TCPDefinitions.h
-         Nota: inclusión del archivo:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream
-         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ws2def.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\inaddr.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\qos.h
-         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\ws2tcpip.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ws2ipdef.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\in6addr.h
-         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\iphlpapi.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\iprtrmib.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\mprapidef.h
-         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\lmcons.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ipifcons.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ipmib.h
-         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ifmib.h
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ifdef.h
-         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\nldef.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\tcpmib.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\udpmib.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\ipexport.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\packon.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\packoff.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\iptypes.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.h
-         Nota: inclusión del archivo:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Nota: inclusión del archivo:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\tcpestats.h
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\netioapi.h
-         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ntddndis.h
-         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\devpkey.h
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\devpropdef.h
-         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pciprop.h
-         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windot11.h
-         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\WlanTypes.h
-         Nota: inclusión del archivo:  d:\github\chat\chat\server\client.h
-         Nota: inclusión del archivo:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\list
-         Nota: inclusión del archivo:  d:\github\chat\chat\server\group.h
-         Nota: inclusión del archivo:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree
-         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple
-         Nota: inclusión del archivo: C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iostream
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\Chat\Chat\Debug\Server.exe" /INCREMENTAL /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\Chat\Chat\Debug\Server.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\Chat\Chat\Debug\Server.lib" /MACHINE:X86 Debug\client.obj
-         Debug\group.obj
-         Debug\main.obj
-         Debug\server.obj
-         Debug\TCPDefinitions.obj
-         Debug\ThreadsDefinitions.obj
-         Server.vcxproj -> D:\GitHub\Chat\Chat\Debug\Server.exe
-     1>Compilación del proyecto terminada "D:\GitHub\Chat\Chat\Server\Server.vcxproj" (Build destinos).
-
-Compilación correcta.
-
-Tiempo transcurrido 00:00:01.69
+﻿  Counter.cpp
+  Nota: inclusión del archivo: c:\users\cristian\documents\github\chat\chat\server\Counter.h
+  Nota: inclusión del archivo:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\excpt.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+  Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sal.h
+  Nota: inclusión del archivo:      C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ConcurrencySal.h
+  Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vadefs.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdarg.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h
+  Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings.h
+  Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h
+  Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_undef.h
+  Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\driverspecs.h
+  Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\shared\sdv_driverspecs.h
+  Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h
+  Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\ctype.h
+  Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt.h
+  Nota: inclusión del archivo:        C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+  Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wctype.h
+  Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\kernelspecs.h
+  Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+  Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+  Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h
+  Nota: inclusión del archivo:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_memory.h
+  Nota: inclusión del archivo:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_memcpy_s.h
+  Nota: inclusión del archivo:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h
+  Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_string.h
+  Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+  Nota: inclusión del archivo:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h
+  Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+  Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+  Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+  Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+  Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+  Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+  Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+  Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+  Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+  Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+  Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+  Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+  Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+  Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack8.h
+  Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+  Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+  Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apiset.h
+  Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ktmtypes.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\processenv.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\fileapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\debugapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\utilapiset.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\handleapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\errhandlingapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\fibersapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\namedpipeapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\profileapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\heapapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\ioapiset.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\synchapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\interlockedapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\memoryapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoollegacyapiset.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoolapiset.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\bemapiset.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\jobapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\wow64apiset.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\libloaderapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\securitybaseapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\namespaceapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\systemtopologyapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\processtopologyapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\securityappcontainer.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\realtimeapiset.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\timezoneapi.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\tvout.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\datetimeapi.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\stringapiset.h
+  Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincon.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\consoleapi.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winver.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\verrsrc.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\reason.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wnnc.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\imm.h
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\ime_cmodes.h
+  Nota: inclusión del archivo: c:\users\cristian\documents\github\chat\chat\server\MessagePrinter.h
+  Nota: inclusión del archivo:  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\string
+  Nota: inclusión del archivo:   C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\istream
+  Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ostream
+  Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ios
+  Nota: inclusión del archivo:      C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocnum
+  Nota: inclusión del archivo:       C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\climits
+  Nota: inclusión del archivo:        C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h
+  Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xkeycheck.h
+  Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\crtdefs.h
+  Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+  Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\use_ansi.h
+  Nota: inclusión del archivo:        C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\limits.h
+  Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+  Nota: inclusión del archivo:       C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath
+  Nota: inclusión del archivo:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h
+  Nota: inclusión del archivo:        C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtgmath.h
+  Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtr1common
+  Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstdlib
+  Nota: inclusión del archivo:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h
+  Nota: inclusión del archivo:            C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_malloc.h
+  Nota: inclusión del archivo:            C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_search.h
+  Nota: inclusión del archivo:             C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stddef.h
+  Nota: inclusión del archivo:            C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdlib.h
+  Nota: inclusión del archivo:       C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstdio
+  Nota: inclusión del archivo:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h
+  Nota: inclusión del archivo:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h
+  Nota: inclusión del archivo:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_stdio_config.h
+  Nota: inclusión del archivo:       C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\streambuf
+  Nota: inclusión del archivo:        C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xiosbase
+  Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocale
+  Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstring
+  Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdexcept
+  Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\exception
+  Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits
+  Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstddef
+  Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstddef
+  Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\initializer_list
+  Nota: inclusión del archivo:            C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\malloc.h
+  Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h
+  Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\eh.h
+  Nota: inclusión del archivo:              C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_terminate.h
+  Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring
+  Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0
+  Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstdint
+  Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdint.h
+  Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+  Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\limits
+  Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ymath.h
+  Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cfloat
+  Nota: inclusión del archivo:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\float.h
+  Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cwchar
+  Nota: inclusión del archivo:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\wchar.h
+  Nota: inclusión del archivo:                C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wconio.h
+  Nota: inclusión del archivo:                C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wdirect.h
+  Nota: inclusión del archivo:                C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wio.h
+  Nota: inclusión del archivo:                 C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_share.h
+  Nota: inclusión del archivo:                C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wprocess.h
+  Nota: inclusión del archivo:                C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wtime.h
+  Nota: inclusión del archivo:                C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\sys/stat.h
+  Nota: inclusión del archivo:                 C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\sys/types.h
+  Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\new
+  Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_new.h
+  Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+  Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility
+  Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility
+  Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\iosfwd
+  Nota: inclusión del archivo:                C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\crtdbg.h
+  Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_new_debug.h
+  Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xatomic0.h
+  Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\intrin.h
+  Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+  Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\setjmp.h
+  Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+  Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\immintrin.h
+  Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\wmmintrin.h
+  Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\nmmintrin.h
+  Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\smmintrin.h
+  Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\tmmintrin.h
+  Nota: inclusión del archivo:                   C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\pmmintrin.h
+  Nota: inclusión del archivo:                    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\emmintrin.h
+  Nota: inclusión del archivo:                     C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmmintrin.h
+  Nota: inclusión del archivo:                      C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\mmintrin.h
+  Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ammintrin.h
+  Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\mm3dnow.h
+  Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+  Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\typeinfo
+  Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_typeinfo.h
+  Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+  Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocinfo
+  Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xlocinfo.h
+  Nota: inclusión del archivo:            C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\locale.h
+  Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xfacet
+  Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\system_error
+  Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cerrno
+  Nota: inclusión del archivo:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\share.h
+  Nota: inclusión del archivo: C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sstream
+  Server.vcxproj -> C:\Users\Cristian\Documents\GitHub\Chat\Chat\Debug\Server.exe
